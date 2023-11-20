@@ -8,9 +8,6 @@ static const int __ = []() {
 
 
 
-
-
-
-//add 2 numbers in cpp
+// add 2 numbers in cpp
 
 maxPairSum = Math.Max(maxPairSum, left + right);
