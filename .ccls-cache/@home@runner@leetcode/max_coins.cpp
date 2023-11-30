@@ -50,5 +50,5 @@ public:
 //     // cout<<"start"<<endl;
 //     piles.erase(piles.begin() + (piles.size()-1));
 //     // cout<<"start"<<endl;
-//     n = piles.size();
+//  // n = piles.size();
 // }
