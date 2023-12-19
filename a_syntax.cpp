@@ -1,4 +1,3 @@
-
 static const int __ = []() {
   std::ios::sync_with_stdio(false);
   std::cin.tie(NULL);
@@ -18,3 +17,6 @@ return sum % M;
 // int ny;
 // ny = std::stoi(y);
 // cout<<ny<<endl;
+
+transform(upperGreeting.begin(), upperGreeting.end(), upperGreeting.begin(),
+          ::toupper);
