@@ -20,3 +20,11 @@ return sum % M;
 
 transform(upperGreeting.begin(), upperGreeting.end(), upperGreeting.begin(),
           ::toupper);
+
+// shuffling of numbers in a vector.
+vector<int> shuffle() {
+  swap(shuffled[rand() % n], shuffled[rand() % n]);
+  return shuffled;
+}
+}
+;
