@@ -102,3 +102,12 @@ int main() {
   for_each(arr, arr + 5, print_even);
   return 0;
 }
+
+// stl c++
+vector<int>::iterator m = nums.begin(); // m will mark the virtual "S.end()".
+for (int &val : nums) {
+  auto it = lower_bound(nums.begin(), m, val);
+  *it = val;
+  if (it == m)
+    m++;
+}
