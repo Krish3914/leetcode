@@ -111,3 +111,13 @@ for (int &val : nums) {
   if (it == m)
     m++;
 }
+
+// get random element from the vector
+int getRandom() {
+  // rand() function gives random value in the range of 0 to RAND_MAX(whose
+  // value is 32767). x%y gives remainder when x is divided by y and this
+  // remainder is in the range of 0 to y-1. rand()%a.size() gives random value
+  // in the range of (0 to a.size()-1). a[rand()%a.size()] will give random
+  // value of array in the range of a[0] to a[a.size()-1].
+  return a[rand() % a.size()];
+}
