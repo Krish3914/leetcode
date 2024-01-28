@@ -29,6 +29,9 @@ vector<int> shuffle() {
 }
 ;
 
+//
+
+transform(s.begin(), s.end(), s.begin(), ::toupper);
 // getline()
 
 // For any integer n, the bitwise complement of n will be - (n + 1).
