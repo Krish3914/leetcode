@@ -6,6 +6,7 @@
 //         }
 //         int i,j;
 //         vector<int> arr1=nums,arr2=nums,arr3=nums;
+
 //         int n1 = arr1.size();
 //         int n2=n1;
 //         int n3=n1;
